@@ -1,0 +1,35 @@
+{
+  "name": "yories",
+  "version": "1.0.0",
+  "description": "IG and Snapchat stories with location and tag filtering",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/concurrently \"npm run serve:client.web\" \"npm run serve:server\"",
+    "serve:client.web": "cd client.web && npm start",
+    "serve:server": "cd server && npm start",
+    "stop": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liquidcarrot/yories.git"
+  },
+  "keywords": [
+    "social",
+    "sharing",
+    "video"
+  ],
+  "contributors": [
+    "Luis Carbonell <luis@liquidcarrot.io>",
+    "Claudio Atilano <claudio@metamesh.io>",
+    "Rawan Alfaiz <rawan.alfaiz@outlook.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liquidcarrot/yories/issues"
+  },
+  "homepage": "https://github.com/liquidcarrot/yories#readme",
+  "dependencies": {
+    "concurrently": "^4.0.1"
+  }
+}
