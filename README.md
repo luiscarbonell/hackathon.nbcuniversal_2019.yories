@@ -12,6 +12,8 @@ _Yories_ is a PWA which lets users look for videos of events hapenning near them
 
 ## Quickstart
 
+
+
 To run _Yories_ on `http://localhost:3000/` run the following command.
 
 ```bash
